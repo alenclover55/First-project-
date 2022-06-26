@@ -234,6 +234,9 @@ header{
 	margin-top: 20px;
 	box-shadow: 2px 2px 2px black;
 }
+.photo__frame div:hover{
+	background-color: black;
+}
 .photo{
 	max-height: 170px;
 	width: 252px;
