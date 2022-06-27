@@ -26,21 +26,31 @@ body{
 	color: black;
 	font-size: 20px;
 }
+.active__menu{
+	background-color: white;
+	position: fixed;
+	height: 70px;
+	z-index: 5;
+	width: 100%;
+	top: 0;
+	right: 0;
+	left: 0;
+	box-shadow: 2px 2px 2px black;
+}
 header{	
 	background: url('img/img1.jpg') no-repeat;
 	background-size: cover;
-	max-height: 680px;
-	
+	max-height: 680px;	
 }
 .menu{
 	display: flex;
 	justify-content: space-between;
-	padding: 30px 24% 0px 24%;
+	padding: 25px 24% 0px 24%;
 }
+. 
 .menu__point:hover{
   text-decoration: underline;
 }
-
 /* шапка */
 
 .img__place{
@@ -288,4 +298,5 @@ a img{
 	border-right: 2px solid gray;
 	text-align: right;
 }
+
 
